@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: cyan;
+}
+nav li{
+    list-style: none;
+    color: #050527;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+}
+nav li:hover{
+    color: darkgray;
+}
+
+
+
+@media screen and (max-width:760px){
+    nav{
+        display: block;
+    }
+    nav li{
+        font-size: 16px;
+        border-bottom: 1px solid #050527;
+    }
+}
